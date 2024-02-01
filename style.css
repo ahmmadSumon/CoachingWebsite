@@ -42,16 +42,16 @@ html,body{
     outline: none;
     overflow-y: hidden;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
-    /* Adding transitions for background color, box shadow, and text color */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
-    font-weight: bold; /* Making the text bold for a more elegant look */
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    font-weight: bold; 
   }
   
   .btn1:hover {
-    background-color: #167D6F; /* Darker background color on hover */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly larger box shadow on hover */
-    color: #fff; /* Keeping the text color white on hover */
-    /* Add more styles for the hover effect if desired */
+    background-color: #167D6F; 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+    color: #fff; 
+    
   }
   
 .btn2{
@@ -272,9 +272,9 @@ overflow-y: hidden;
   }
   
   .help-row-down-con:hover {
-    transform: scale(1.02); /* Slight scale effect on hover */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle box shadow on hover */
-    /* Add more styles for the hover effect if desired */
+    transform: scale(1.02); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); 
+   
   }
   
 .help-row-down-con h3{
@@ -337,7 +337,7 @@ width: 300px;
   .clients-col:hover {
     opacity: 1;
     transform: scale(1.02);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhancing box shadow on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); 
   }
 .clients-col h4{
 font-size: 24px;
@@ -415,8 +415,8 @@ transition: all ease .3s;
 
 .blog-row-con:hover {
   transform: scale(0.99);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow on hover */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding smooth transitions */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .blog-row-con h3{
@@ -586,22 +586,22 @@ flex-direction: column;
     padding: 10px;
     border-radius: 10px;
     outline: none;
-    border: 1px solid #B0BEC5; /* Adding a subtle border */
-    transition: border-color 0.3s ease; /* Adding a smooth transition for border color */
+    border: 1px solid #B0BEC5; 
+    transition: border-color 0.3s ease; 
     font-size: 16px;
   }
   
   .notify-col2 form input:focus {
-    border-color: #20AD96; /* Change border color on focus for a more vibrant look */
+    border-color: #20AD96;
   }
   
   .notify-col2 form input::placeholder {
-    color: #B0BEC5; /* Adjusting the placeholder color */
+    color: #B0BEC5; 
   }
   
   .notify-col2 form input:hover {
-    box-shadow: 0px 0px 10px rgba(32, 173, 150, 0.2); /* Adding a subtle box shadow on hover */
-    /* Add more styles for the hover effect if desired */
+    box-shadow: 0px 0px 10px rgba(32, 173, 150, 0.2);
+    
   }
   
 /* .notify-col2 form button{ */
@@ -629,14 +629,14 @@ flex-direction: column;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .notify-col2 form button:hover {
     background-color: #167D6F;
-    transform: scale(1.02); /* Slight scale effect on hover */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly larger box shadow on hover */
-    /* Add more styles for the hover effect if desired */
+    transform: scale(1.02); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+   
   }
   
 .footer-row{
