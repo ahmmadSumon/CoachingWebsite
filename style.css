@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;;
+    overflow-x: hidden;
+    
+}
+html,body{
+    width: 100vw;
+    height: 100%;
+    
+}
+/* .btn1{ */
+/* height: 40px; */
+/* width: 250px; */
+/*  */
+/* border-radius: 4px; */
+/* padding: 11px 16px; */
+/* background-color: #20AD96; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* color: #fff; */
+/* border: none; */
+/* outline: none; */
+/* } */
+
+.btn1 {
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 11px 16px;
+    background-color: #20AD96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    overflow-y: hidden;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    /* Adding transitions for background color, box shadow, and text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
+    font-weight: bold; /* Making the text bold for a more elegant look */
+  }
+  
+  .btn1:hover {
+    background-color: #167D6F; /* Darker background color on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly larger box shadow on hover */
+    color: #fff; /* Keeping the text color white on hover */
+    /* Add more styles for the hover effect if desired */
+  }
+  
+.btn2{
+
+}
+#navbar{
+  width: 100%;
+  height: 60px !important;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      background-color: #FFFFFF;
+      overflow-y: hidden;
+}
+.main-menu {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  nav .open-menu {
+    font-size: 2rem;
+    /* margin: 20px; */
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    
+   
+ 
+  }
+  #nav-con{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    
+    
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+}
+
+/* .navbar-nav .nav-link a{ */
+/*  */
+/* font-size: 15px; */
+/* font-weight: 400; */
+/* line-height: 24px; */
+/* letter-spacing: -2%; */
+/* color:  */
+/* #4A556C ; */
+/* } */
+
+ .nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4A556C;
+    transition: all 0.3s ease;
+  }
+  
+.nav-link:hover {
+   
+font-weight: 700;
+    color: #20AD96;
+    text-decoration: none;
+  }
+  
+ .nav-link:focus {
+    outline: none;
+  }
+  
+ .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #20AD96;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .btn1 {
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 11px 16px;
+    background-color: #20AD96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+
+.hero-section{
+    height:max-content ;
+    background-color: #FAF8F6;
+    position: relative;
+    
+}
+.hero-container{
+ padding-top: 50px;
+}
+.heroVecLeft{
+    position: absolute;
+    top: 105px;
+    left: 13%;
+}
+.heroVecRight{
+    position: absolute;
+    top: 4%;
+   left: 45%;
+}
+.hero-left{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero-left p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: -2%;
+ color: 
+ #4A556C;
+ opacity: .5;
+}
+
+.hero-left h1{
+height: 172px;
+/* width: 520px; */
+font-size: 72px ;
+font-weight: 800;
+line-height: 86.4%;
+letter-spacing: -1%;
+color:#333461;
+}
+
+.hero-left h6{
+    /* width: 545px; */
+    height: 116px;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.hero-right{
+    padding-top: 100px !important;
+}
+.hero-right img{
+   
+    /* width: 462px; */
+  
+    object-fit: cover;
+    margin-left: 100px;
+   
+    
+}
+.help-con{
+    margin-top: 100px;
+}
+.helpVec{
+   margin-bottom: 16px;
+}
+.helpUpLeft h1{
+font-size: 48px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: -1%;
+color: #333461;
+overflow-y: hidden;
+}
+.helpUpRight{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+  
+}
+.helpUpRight p{
+    width: 468px;
+}
+
+.help-row-down{
+   padding-top: 56px;
+   padding-bottom: 120px;
+}
+/* .help-row-down-con{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* cursor: pointer; */
+/*     */
+/* } */
+.help-row-down-con {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .help-row-down-con:hover {
+    transform: scale(1.02); /* Slight scale effect on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle box shadow on hover */
+    /* Add more styles for the hover effect if desired */
+  }
+  
+.help-row-down-con h3{
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -3%;
+    font-weight: 700;
+    color: #041434;
+}
+.help-row-down-con p{
+margin-top: 16px;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -2%;
+font-weight: 400;
+color: #4A556C;
+width: 300px;
+}
+
+.clients{
+   
+    background-color: #FAF8F6;
+
+}
+.clients h1{
+    padding-top: 120px;
+    color: 
+    #333461;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -1%;
+    overflow-y: hidden;
+ 
+}
+.clients-row{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 37px;
+    gap: 50px;
+    padding-bottom: 219px;
+  
+
+}
+
+.clients-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    width: 400px !important;
+    padding: 48px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clients-col:hover {
+    opacity: 1;
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhancing box shadow on hover */
+  }
+.clients-col h4{
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -3%;
+color: #4A556C;
+}
+.clients-col:nth-child(1) span{
+    font-weight: 800;
+}
+.clients-col h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -3%;
+color: #333461;
+}
+
+.blog-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 97px;
+}
+.blog-con h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: #333461;
+    margin-top: 97px;
+    margin-bottom:65px ;
+    overflow-y: hidden;
+
+}
+.text{
+    padding: 24px 28px;
+    overflow-y: hidden;
+}
+.blog-row-con{
+ border: 1px solid #EDEFF5;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 360px !important;
+height: 376px !important;
+cursor: pointer;
+transition: all ease .3s;
+}
+/* .blog-row{ */
+/* display: flex; */
+/* flex-direction: row; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* gap: 37px; */
+/* margin-bottom: 53px; */
+/*  */
+/* } */
+/* .blog-row-con:hover{ */
+   /* transform: scale(.99); */
+/* } */
+
+.blog-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 37px;
+  margin-bottom: 53px;
+}
+
+.blog-row-con:hover {
+  transform: scale(0.99);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding smooth transitions */
+}
+
+.blog-row-con h3{
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: -3%;
+   color: #333461;
+   font-weight: 700;
+}
+.blog-img{
+    overflow-y: hidden;
+}
+.blog-img img{
+    width:356px !important;
+    height: 160px;
+    object-fit: cover;
+    
+
+}
+
+.guide-con{
+ margin-top: 158px;
+ padding-bottom: 139px;
+}
+.guide-row{
+display: flex;
+
+
+}
+.guide{
+    position: relative;
+}
+.guide-col h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #333461;
+    margin-top:46px ;
+    overflow-y: hidden;
+
+}
+
+.guide-col .upper{
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4A556C;
+
+}
+.guide-col .lowwer{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.08px;
+}
+
+.guide-img-col{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 50px ;
+}
+.free{
+    height: 96px;
+    width: 96px;
+    background-color: #167D6F;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 18%;
+    top: 12.5%;
+    z-index: 5;
+}
+.online{
+    margin-bottom: 96px;
+}
+.online-con{
+    height: 480px;
+    width: 1281px;
+    background-color: 
+    #FAF8F6;
+    border-radius: 24px;
+    overflow: hidden;
+ 
+}
+.online-con .online-col{
+padding: 129px 48px 129px 68px;
+}
+.online-con .online-col h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44.65px;
+    color: #333461;
+    margin-bottom:20px ;
+}
+.online-col {
+display: flex;
+flex-direction: column;
+}
+.online-col p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4A556C;
+    opacity: .7;
+    margin-bottom: 40px;
+}
+.online-img-col{
+    display: flex;
+    padding-left: 50px !important;   
+}
+
+.notify{
+    background-color: 
+    #FAF8F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.notify-row{
+    display: flex;
+    align-items: center;
+    height: 180px;
+
+}
+.notify-col{
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+}
+.notify-col h3{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #333461;
+}
+.notify-col p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4A556C;
+}
+.notify-col2{
+    display: flex;
+   
+    justify-content: flex-end;
+    align-items: center;
+}
+/* .notify-col2 form input{ */
+    /* width: 280px; */
+    /* height: 44px; */
+    /* padding: 5px 10px; */
+    /* border-radius: 10px; */
+    /* outline: none; */
+    /* border: none; */
+/* } */
+.notify-col2 form input {
+    width: 280px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #B0BEC5; /* Adding a subtle border */
+    transition: border-color 0.3s ease; /* Adding a smooth transition for border color */
+    font-size: 16px;
+  }
+  
+  .notify-col2 form input:focus {
+    border-color: #20AD96; /* Change border color on focus for a more vibrant look */
+  }
+  
+  .notify-col2 form input::placeholder {
+    color: #B0BEC5; /* Adjusting the placeholder color */
+  }
+  
+  .notify-col2 form input:hover {
+    box-shadow: 0px 0px 10px rgba(32, 173, 150, 0.2); /* Adding a subtle box shadow on hover */
+    /* Add more styles for the hover effect if desired */
+  }
+  
+/* .notify-col2 form button{ */
+    /* width: 150px; */
+    /* height: 44px; */
+    /* border-radius: 8px; */
+    /* padding:10px, 18px, 10px, 18px ; */
+    /* background-color: #20AD96; */
+    /* color: #fff; */
+    /* font-size: 16px; */
+    /* outline: none; */
+    /* border: none; */
+    /* cursor: pointer; */
+/*  */
+/* } */
+.notify-col2 form button {
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background-color: #20AD96;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+  
+  .notify-col2 form button:hover {
+    background-color: #167D6F;
+    transform: scale(1.02); /* Slight scale effect on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly larger box shadow on hover */
+    /* Add more styles for the hover effect if desired */
+  }
+  
+.footer-row{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 169px;
+
+}
+.footer-row h5{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333461;
+    padding-bottom: 16px;
+}
+.footer-row .link {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.footer-row .link a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C;
+    opacity: .5;
+    transition: all ease .3s;
+}
+.footer-row .link a:hover{
+    opacity: 1;
+    font-weight: 500;
+}
+.footer-col-left{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+.footer-col-left img{
+    height:27.31px;
+    width: 149px;
+}
+.footer-col-left p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4A556C;
+opacity: .5;
+}
